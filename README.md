@@ -1,7 +1,7 @@
 # react-nginx
 
 環境構築方法
-①cloneする　　
+①cloneする<br>
 ②docker-compose up -d　--build　　
 ③docker-compose run --rm react-app sh -c "npm install -g create-react-app && create-react-app react-app"　　
 ④docker-compose up -g --build　　
