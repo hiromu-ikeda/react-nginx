@@ -3,7 +3,7 @@
 環境構築方法<br>
 ①cloneする<br>
 ②docker-compose up -d --build  
-③docker-compose run --rm react-app sh -c "npm install -g create-react-app && create-react-app react-app"  
+③docker-compose run --rm react-app sh -c "cd react-app && npm install"  
 ④docker-compose up -g --build  
 ⑤localhost:3000にアクセスしてreactが表示されていることを確認  
 ⑥docker-compose exec react-app bash  
